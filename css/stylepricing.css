@@ -1,0 +1,177 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Poppins', sans-serif;
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 16px;
+	font-weight: 400;
+	color: #ffffff;
+	line-height: 1.5;
+	overflow-x: hidden; /* Ajuste agregado */
+}
+
+h2 {
+	line-height: 1.2;
+}
+
+h3 {
+	font-size: 25px;
+}
+
+a {
+	text-decoration: none;
+	display: inline-block;
+	color: tomato;
+}
+
+.container {
+	width: 1180px;
+	max-width: 95%;
+	margin: 0 auto;
+}
+
+.pricing {
+	width: 100%;
+	min-height: 100vh; /* Ajuste agregado */
+	height: auto; /* Ajuste agregado */
+	background: #101010;
+	padding: 70px 0px;
+}
+
+.pricing .heading {
+  width: 760px;
+  max-width: 95%;
+  margin: 0 auto 50px;
+  display: flex; /* Ajuste agregado */
+  flex-direction: column; /* Ajuste agregado */
+  align-items: center; /* Ajuste agregado */
+  justify-content: center; /* Ajuste agregado */
+}
+
+.pricing .heading h2 {
+  font-size: 2.6em;
+  font-weight: 700;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.pricing .heading p {
+  font-size: 1.2em;
+  margin-bottom: 12px;
+  white-space: nowrap;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .pricing .heading p {
+    white-space: normal;
+  }
+}
+
+.pricing .table {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	justify-content: space-around;
+}
+
+.pricing .table .box {
+	width: 350px;
+	max-width: 100%;
+	background: #181818;
+	padding: 30px 20px;
+	margin: 15px;
+	border-radius: 50px;
+	box-shadow: 0 0 30px rgb(33 33 33 / 10%);
+}
+
+.pricing .table .box:nth-child(2) {
+	background: #181818;
+	color: white;
+}
+
+.pricing .table .box .price {
+	position: relative;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.pricing .table .box .price:after {
+	content: "";
+	position: absolute;
+	width: 40px;
+	height: 2px;
+	background: #ffffff;
+	bottom: -20px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.pricing .table .box:nth-child(2) .price:after {
+	background: #fff;
+}
+
+.pricing .table .box .price h3 {
+	position: relative;
+	font-size: 2em;
+	margin: 0 auto 25px;
+	text-align: center; /* Ajuste agregado */
+}
+
+.pricing .table .box .price-title {
+	font-size: 2em; /* Ajuste agregado */
+}
+
+.pricing .table .box .description {
+	width: 170px;
+	margin: 0 auto 25px;
+}
+
+.pricing .table .box .description ul {
+	list-style-type: none;
+}
+
+.pricing .table .box .description ul li {
+	display: block;
+	margin-bottom: 15px;
+	transition: .3s;
+	cursor: pointer;
+}
+
+.pricing .table .box .description ul li:hover {
+	transform: translateX(-10px);
+}
+
+.pricing .table .box .description ul li i {
+	display: inline-block;
+	margin-right: 15px;
+}
+
+.pricing .table .box .btn {
+	text-align: center;
+}
+
+.pricing .table .box .btn a {
+	font-size: 1.1em;
+	font-weight: 500;
+	background: FF3399;
+	color: #fff;
+	border: 2px solid #fff;
+	padding: 8px 30px;
+	border-radius: 30px;
+	transition: .3s;
+}
+.pricing .table .box .btn a:hover{
+	background: #FF3399;
+	transform: scale(0.9);
+}
+.pricing .table .box:nth-child(2) .btn a{
+	background: #FF3399;
+	color: #fff;
+	border: 2px solid #fff;
+}					
