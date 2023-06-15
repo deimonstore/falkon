@@ -16,7 +16,7 @@ nav{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding-top: 45px;
+	padding-top: 30px; /* testeando en 1080p */
 	padding-left: 7%;
 	padding-right: 7%;
 }
@@ -83,6 +83,9 @@ button:hover{
 	text-transform: uppercase;
 	letter-spacing: 25px;
 }
+.h1 {
+    margin: 0.1em 0px; /* testeando en 1080p */ 
+}
 .content p{
 	width: 100%;
 	color: #ffffffb3;
@@ -90,7 +93,7 @@ button:hover{
 	line-height: 30px;
 	position: relative;
 	margin-bottom: 20px;
-	padding-top: 300px; /* la IA me hizo cambiar al pedo */
+	padding-top: 330px; /* testeando en 1080p */
 	z-index: 5;
 }
 .btn{
@@ -121,7 +124,7 @@ button:hover{
 .main-img img{
 	width: 400px; /* Ajuste sugerido */
 	height: auto;
-	padding-bottom: 100px; /* Ajuste sugerido */
+	padding-bottom: 200px; /* testeando en 1080p */
 }
 
 /* Estilos para pantallas más pequeñas */
