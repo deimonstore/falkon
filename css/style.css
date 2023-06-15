@@ -124,7 +124,7 @@ button:hover{
 .main-img img{
 	width: 400px; /* Ajuste sugerido */
 	height: auto;
-	padding-bottom: 200px; /* testeando en 1080p */
+	padding-bottom: 0px; /* testeando en 1080p */
 }
 
 /* Estilos para pantallas más pequeñas */
