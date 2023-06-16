@@ -90,7 +90,7 @@ button:hover{
 	font-size: 18px;
 	line-height: 30px;
 	position: relative;
-	margin-top: 100px; /* ultimas correcciones */
+	margin-top: 1000px; /* ultimas correcciones */
 	padding-top: 0px; /* testeando en 1080p */
 	z-index: 5;
 }
