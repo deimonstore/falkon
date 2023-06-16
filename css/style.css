@@ -161,7 +161,7 @@ button:hover{
 
 /* Estilos para pantallas de alta resolución 2K (1440p) */
 
-@media (min-width: 1440px) {
+@media (min-width: 2561px) and (max-width: 3840px) {
 	.logo img{
 		width: 250px;
 	}
@@ -192,7 +192,7 @@ button:hover{
 
 /* Estilos adicionales para pantallas 4K (2160p) */
 
-@media (min-width: 3840px) {
+@media (min-width: 3841px) {
 	.logo img{
 		width: 300px;
 	}
