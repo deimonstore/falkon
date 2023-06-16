@@ -5,7 +5,7 @@
 	font-family: 'Monserrat' , sans-serif;
 }
 .hero{
-	height: 100vh;
+	min-height: 100vh; /* testeando en 1080p */
 	width: 100%;
 	background: url(../img/background.jpg);
 	background-size: cover;
