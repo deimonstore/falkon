@@ -159,6 +159,37 @@ button:hover{
 	}
 }
 
+/* Estilos para pantallas de alta resolución (1080p) */
+
+@media (min-width: 1080px) {
+	.logo img{
+		width: 350px;
+	}
+
+	nav{
+		padding-left: 7.5%;
+		padding-right: 7.5%;
+	}
+
+	nav ul li{
+		padding: 0px 35px;
+	}
+
+	.content h1{
+		font-size: 150px; OKKKK
+		letter-spacing: 20px; OKKK
+	}
+
+	.content p{
+		margin-top: 360px;
+		padding-top: 0px;
+	}
+
+	.main-img img{
+		margin-bottom: 80px; okkkk
+	}
+}
+
 /* Estilos para pantallas de alta resolución 2K (1440p) */
 
 @media (min-width: 1440px) {
