@@ -161,7 +161,7 @@ button:hover{
 
 /* Estilos para pantallas de alta resolución (1080p) */
 
-@media (max-width: 1080px) {
+@media (max-width: 1920px) {
 	.logo img{
 		width: 350px;
 	}
