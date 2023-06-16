@@ -77,7 +77,7 @@ button:hover{
 }
 .content h1{
 	width: 100%;
-	font-size: 180px;
+	font-size: 150px;
 	color: white;
 	font-weight: 900;
 	text-transform: uppercase;
@@ -90,7 +90,7 @@ button:hover{
 	font-size: 18px;
 	line-height: 30px;
 	position: relative;
-	margin-top: 1000px; /* ultimas correcciones */
+	margin-top: 100px; /* ultimas correcciones */
 	padding-top: 0px; /* testeando en 1080p */
 	z-index: 5;
 }
@@ -156,37 +156,6 @@ button:hover{
 		width: 100%;
 		height: auto;
 		padding-bottom: 200px;
-	}
-}
-
-/* Estilos para pantallas de alta resolución (1080p) */
-
-@media (max-width: 1920px) {
-	.logo img{
-		width: 350px;
-	}
-
-	nav{
-		padding-left: 7.5%;
-		padding-right: 7.5%;
-	}
-
-	nav ul li{
-		padding: 0px 35px;
-	}
-
-	.content h1{
-		font-size: 150px;
-		letter-spacing: 20px;
-	}
-
-	.content p{
-		margin-top: 360px;
-		padding-top: 0px;
-	}
-
-	.main-img img{
-		margin-bottom: 80px;
 	}
 }
 
