@@ -158,3 +158,60 @@ button:hover{
 		padding-bottom: 200px;
 	}
 }
+
+/* Estilos para pantallas de alta resolución 2K (1440p) */
+
+@media (min-width: 1440px) {
+	.logo img{
+		width: 250px;
+	}
+
+	nav{
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+
+	nav ul li{
+		padding: 0px 35px;
+	}
+
+	.content h1{
+		font-size: 250px;
+		letter-spacing: 30px;
+	}
+
+	.content p{
+		margin-top: 420px;
+		padding-top: 50px;
+	}
+
+	.main-img img{
+		margin-bottom: 250px;
+	}
+}
+
+/* Estilos adicionales para pantallas 4K (2160p) */
+
+@media (min-width: 3840px) {
+	.logo img{
+		width: 300px;
+	}
+
+	nav ul li{
+		padding: 0px 50px;
+	}
+
+	.content h1{
+		font-size: 350px;
+		letter-spacing: 40px;
+	}
+
+	.content p{
+		margin-top: 520px;
+		padding-top: 70px;
+	}
+
+	.main-img img{
+		margin-bottom: 350px;
+	}
+}
