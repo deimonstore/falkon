@@ -5,7 +5,7 @@
 	font-family: 'Monserrat' , sans-serif;
 }
 .hero{
-	min-height: 100vh; /* testeando en 1080p */
+	min-height: 100vh; 
 	width: 100%;
 	background: url(../img/background.jpg);
 	background-size: cover;
@@ -16,7 +16,7 @@ nav{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding-top: 30px; /* testeando en 1080p */
+	padding-top: 30px; 
 	padding-left: 7%;
 	padding-right: 7%;
 }
@@ -82,7 +82,7 @@ button:hover{
 	font-weight: 900;
 	text-transform: uppercase;
 	letter-spacing: 25px;
-	margin: 0.1em 0px; /* corrigiendo margen del titulo */ 
+	margin: 0.1em 0px; 
 }
 .content p{
 	width: 100%;
@@ -90,8 +90,7 @@ button:hover{
 	font-size: 18px;
 	line-height: 30px;
 	position: relative;
-	margin-top: 100px; /* ultimas correcciones */
-	padding-top: 0px; /* testeando en 1080p */
+	margin-top: 310px; 
 	z-index: 5;
 }
 .btn{
@@ -100,13 +99,13 @@ button:hover{
 	padding: 14px 30px;
 	color: white;
 	text-decoration: none;
-	font-size: 13px;
+	font-size: 15px;
 	font-weight: bold;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	border-radius: 7px;
 	z-index: 1;
-	margin-top: 20px; /* testeando en 1080p */
+	margin-top: 20px; 
 }
 .btn:hover{
 	background: #FF3399;
@@ -121,51 +120,13 @@ button:hover{
 	transform: translate(-50%, -50%);
 }
 .main-img img{
-	width: 400px; /* Ajuste sugerido */
+	width: 300px; 
 	height: auto;
-	padding-bottom: 0px; /* testeando en 1080p */
-	margin-bottom: 170px;
+	padding-bottom: 0px; 
+	margin-bottom: 150px;
 }
 
-/* Estilos para pantallas más pequeñas */
-
-@media (max-width: 768px) {
-	.logo img{
-		width: 150px;
-	}
-
-	nav{
-		padding-left: 5%;
-		padding-right: 5%;
-	}
-
-	nav ul li{
-		padding: 0px 15px;
-	}
-
-	.content h1{
-		font-size: 100px;
-		letter-spacing: 10px;
-	}
-
-	.content p{
-		font-size: 16px;
-	}
-
-	.main-img img{
-		width: 100%;
-		height: auto;
-		padding-bottom: 200px;
-	}
-}
-
-/* Estilos para pantallas de alta resolución 2K (1440p) */
-
-@media (min-width: 1440px) {
-	.logo img{
-		width: 250px;
-	}
-
+@media (min-width: 1921px) and (max-width: 2560px) {
 	nav{
 		padding-left: 10%;
 		padding-right: 10%;
@@ -181,37 +142,13 @@ button:hover{
 	}
 
 	.content p{
-		margin-top: 420px;
+		font-size: 20px;
+		margin-top: 450px;
 		padding-top: 50px;
 	}
 
 	.main-img img{
-		margin-bottom: 250px;
-	}
-}
-
-/* Estilos adicionales para pantallas 4K (2160p) */
-
-@media (min-width: 3840px) {
-	.logo img{
-		width: 300px;
-	}
-
-	nav ul li{
-		padding: 0px 50px;
-	}
-
-	.content h1{
-		font-size: 350px;
-		letter-spacing: 40px;
-	}
-
-	.content p{
-		margin-top: 520px;
-		padding-top: 70px;
-	}
-
-	.main-img img{
-		margin-bottom: 350px;
+		margin-bottom: 190px;
+		width: 500px;
 	}
 }
